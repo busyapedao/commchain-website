@@ -13,7 +13,8 @@
     "rc-tween-one": "^2.3.4",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "react-sublime-video": "^0.2.5"
   },
   "scripts": {
     "start": "react-app-rewired start",
