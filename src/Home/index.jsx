@@ -3,24 +3,22 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
-import Nav0 from './Nav0';
-import Banner1 from './Banner1';
-import Content4 from './Content4';
+import Nav3 from './Nav3';
+import Banner3 from './Banner3';
+import Content11 from './Content11';
 import Content0 from './Content0';
-import Content1 from './Content1';
 import Content3 from './Content3';
 import Content9 from './Content9';
-import Footer0 from './Footer0';
+import Footer1 from './Footer1';
 
 import {
-  Nav00DataSource,
-  Banner10DataSource,
-  Content40DataSource,
+  Nav30DataSource,
+  Banner30DataSource,
+  Content110DataSource,
   Content00DataSource,
-  Content10DataSource,
   Content30DataSource,
   Content90DataSource,
-  Footer00DataSource,
+  Footer10DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -60,34 +58,28 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Nav0
-        id="Nav0_0"
-        key="Nav0_0"
-        dataSource={Nav00DataSource}
+      <Nav3
+        id="Nav3_0"
+        key="Nav3_0"
+        dataSource={Nav30DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner1
-        id="Banner1_0"
-        key="Banner1_0"
-        dataSource={Banner10DataSource}
+      <Banner3
+        id="Banner3_0"
+        key="Banner3_0"
+        dataSource={Banner30DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content4
-        id="Content4_0"
-        key="Content4_0"
-        dataSource={Content40DataSource}
+      <Content11
+        id="Content11_0"
+        key="Content11_0"
+        dataSource={Content110DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content0
         id="Content0_0"
         key="Content0_0"
         dataSource={Content00DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Content1
-        id="Content1_0"
-        key="Content1_0"
-        dataSource={Content10DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content3
@@ -102,10 +94,10 @@ export default class Home extends React.Component {
         dataSource={Content90DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Footer0
-        id="Footer0_0"
-        key="Footer0_0"
-        dataSource={Footer00DataSource}
+      <Footer1
+        id="Footer1_0"
+        key="Footer1_0"
+        dataSource={Footer10DataSource}
         isMobile={this.state.isMobile}
       />,
     ];

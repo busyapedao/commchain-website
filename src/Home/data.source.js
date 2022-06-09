@@ -1,20 +1,29 @@
 import React from 'react';
-export const Nav00DataSource = {
-  wrapper: { className: 'header0 home-page-wrapper' },
+export const Nav30DataSource = {
+  wrapper: { className: 'header3 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
-    className: 'header0-logo',
-    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+    className: 'header3-logo',
+    children: 'https://commchain-website.4everland.store/logo.png',
   },
   Menu: {
-    className: 'header0-menu',
+    className: 'header3-menu',
     children: [
       {
         name: 'item0',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
           href: '#',
-          children: [{ children: '导航一', name: 'text' }],
+          children: [
+            {
+              children: (
+                <span>
+                  <p>Home</p>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
         },
         subItem: [
           {
@@ -71,112 +80,190 @@ export const Nav00DataSource = {
       },
       {
         name: 'item1',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
           href: '#',
-          children: [{ children: '导航二', name: 'text' }],
+          children: [
+            {
+              children: (
+                <span>
+                  <p>Staking</p>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
         },
       },
       {
         name: 'item2',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
           href: '#',
-          children: [{ children: '导航三', name: 'text' }],
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>Scan</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
         },
       },
       {
         name: 'item3',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
           href: '#',
-          children: [{ children: '导航四', name: 'text' }],
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>
+                        F<span>aucet</span>
+                      </p>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
+        name: 'item~l43zsthv4k8',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>Docs</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
         },
       },
     ],
   },
-  mobileMenu: { className: 'header0-mobile-menu' },
+  mobileMenu: { className: 'header3-mobile-menu' },
 };
-export const Banner10DataSource = {
-  wrapper: { className: 'banner1' },
-  BannerAnim: {
+export const Banner30DataSource = {
+  wrapper: { className: 'banner3' },
+  textWrapper: {
+    className: 'banner3-text-wrapper',
     children: [
       {
-        name: 'elem0',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg0' },
-        title: {
-          className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
+        name: 'slogan',
+        className: 'banner3-slogan',
+        children: 'COMMCHAIN',
+        texty: true,
       },
       {
-        name: 'elem1',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg1' },
-        title: {
-          className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
-      },
-      {
-        name: 'elem2',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg1' },
-        title: {
-          className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
+        name: 'name',
+        className: 'banner3-name',
+        children: (
+          <span>
+            <p>zkRollup of BNB Sidechain</p>
+          </span>
+        ),
       },
     ],
   },
 };
-export const Content40DataSource = {
-  wrapper: { className: 'home-page-wrapper content4-wrapper' },
-  page: { className: 'home-page content4' },
-  OverPack: { playScale: 0.3, className: '' },
+export const Content110DataSource = {
+  OverPack: {
+    className: 'home-page-wrapper content11-wrapper',
+    playScale: 0.3,
+  },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
       {
+        name: 'image',
+        children:
+          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+        className: 'title-image',
+      },
+      {
         name: 'title',
-        children: '蚂蚁金融云提供专业的服务',
+        children: (
+          <span>
+            <span>
+              <p>What is CommChain ?</p>
+            </span>
+          </span>
+        ),
         className: 'title-h1',
       },
       {
         name: 'content',
-        className: 'title-content content4-title-content',
-        children: '科技想象力，金融创造力',
+        children: (
+          <span>
+            <span>
+              <p>
+                CommChain is Built for Nabalus(list Binance:NAS) Community Chain
+              </p>
+            </span>
+          </span>
+        ),
+        className: 'title-content',
+      },
+      {
+        name: 'content2',
+        children: (
+          <span>
+            <span>
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>Base on BAS(BNBChain Application Sidechain)</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
+        ),
+        className: 'title-content',
+      },
+      {
+        name: 'content~l440qo709st',
+        className: '',
+        children: (
+          <span>
+            <span>
+              <span>
+                <p>Developing zkRollup, TPS up to 10K</p>
+              </span>
+            </span>
+          </span>
+        ),
       },
     ],
   },
-  video: {
-    className: 'content4-video',
-    children: {
-      video: 'https://os.alipayobjects.com/rmsportal/EejaUGsyExkXyXr.mp4',
-      image: 'https://zos.alipayobjects.com/rmsportal/HZgzhugQZkqUwBVeNyfz.jpg',
-    },
+  button: {
+    className: 'l440cfge51-editor_css',
+    children: { a: { className: 'button', href: '#', children: '立即报名' } },
   },
 };
 export const Content00DataSource = {
@@ -185,7 +272,22 @@ export const Content00DataSource = {
   OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
-    children: [{ name: 'title', children: '产品与服务' }],
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+            <span>
+              <span>
+                <span>
+                  <p>Why zkRollup-BAS ?</p>
+                </span>
+              </span>
+            </span>
+          </span>
+        ),
+      },
+    ],
   },
   childWrapper: {
     className: 'content0-block-wrapper',
@@ -207,9 +309,24 @@ export const Content00DataSource = {
             {
               name: 'title',
               className: 'content0-block-title',
-              children: '一站式业务接入',
+              children: (
+                <span>
+                  <span>
+                    <p>100% EVM Compatible</p>
+                  </span>
+                </span>
+              ),
             },
-            { name: 'content', children: '支付、结算、核算接入产品效率翻四倍' },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <p>Not almost 100%, just 100%</p>
+                  </span>
+                </span>
+              ),
+            },
           ],
         },
       },
@@ -230,11 +347,35 @@ export const Content00DataSource = {
             {
               name: 'title',
               className: 'content0-block-title',
-              children: '一站式事中风险监控',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <p>Data Security</p>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
             },
             {
               name: 'content',
-              children: '在所有需求配置环节事前风险控制和质量控制能力',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>All blocks are verified and stored by BSC</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
             },
           ],
         },
@@ -256,31 +397,26 @@ export const Content00DataSource = {
             {
               name: 'title',
               className: 'content0-block-title',
-              children: '一站式数据运营',
+              children: (
+                <span>
+                  <span>
+                    <p>Fast and low gas</p>
+                  </span>
+                </span>
+              ),
             },
             {
               name: 'content',
-              children: '沉淀产品接入效率和运营小二工作效率数据',
+              children: (
+                <span>
+                  <p>Actually, it's Ultra Fast and Ultra low gas</p>
+                </span>
+              ),
             },
           ],
         },
       },
     ],
-  },
-};
-export const Content10DataSource = {
-  wrapper: { className: 'home-page-wrapper content1-wrapper' },
-  OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
-  img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
-  },
-  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
-  title: { className: 'content1-title', children: '企业资源管理' },
-  content: {
-    className: 'content1-content',
-    children:
-      '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。',
   },
 };
 export const Content30DataSource = {
@@ -292,13 +428,21 @@ export const Content30DataSource = {
     children: [
       {
         name: 'title',
-        children: '蚂蚁金融云提供专业的服务',
+        children: (
+          <span>
+            <p>Blockchain Service Suite</p>
+          </span>
+        ),
         className: 'title-h1',
       },
       {
         name: 'content',
         className: 'title-content',
-        children: '基于阿里云强大的基础资源',
+        children: (
+          <span>
+            <p>base on BAS</p>
+          </span>
+        ),
       },
     ],
   },
@@ -317,11 +461,27 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '企业资源管理' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <span>
+                <p>Explorer</p>
+              </span>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。',
+            children: (
+              <span>
+                <span>
+                  <p>
+                    Blockchain explorer and analytics platform for BAS. It will
+                    enable users to search the blocks, transactions, addresses,
+                    and tokens on your BAS network.
+                  </p>
+                </span>
+              </span>
+            ),
           },
         },
       },
@@ -337,11 +497,27 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '云安全' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <span>
+                <p>Faucet</p>
+              </span>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '按金融企业安全要求打造的完整云上安全体系，全方位保障金融应用及数据安全。',
+            children: (
+              <span>
+                <span>
+                  <p>
+                    Faucet is a portal for developers to obtain test tokens on
+                    the Testnet to experiment with BAS features without spending
+                    crypto on the mainnet.
+                  </p>
+                </span>
+              </span>
+            ),
           },
         },
       },
@@ -357,11 +533,27 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '云监控' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <span>
+                <p>Staking</p>
+              </span>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '分布式云环境集中监控，统一资源及应用状态视图，智能分析及故障定位。',
+            children: (
+              <span>
+                <span>
+                  <p>
+                    Management platform for the validator and delegator. Users
+                    can earn high returns by delegating tokens to validators on
+                    your BAS network.
+                  </p>
+                </span>
+              </span>
+            ),
           },
         },
       },
@@ -377,11 +569,30 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '移动' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <span>
+                <span>
+                  <p>Bridge</p>
+                </span>
+              </span>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '一站式移动金融APP开发及全面监控；丰富可用组件，动态发布和故障热修复。',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <p>
+                      Partner with cBridge to support cross-chain liquidity on
+                      BEP20 and BEP721/1155 between BSC and BAS.
+                    </p>
+                  </span>
+                </span>
+              </span>
+            ),
           },
         },
       },
@@ -397,11 +608,26 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '分布式中间件' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <span>
+                <p>zkRollup</p>
+              </span>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。',
+            children: (
+              <span>
+                <span>
+                  <p>
+                    Put BAS blocks into BSC, with Zreo knowledge, it runs fewer
+                    nodes, but more safety, and faster.
+                  </p>
+                </span>
+              </span>
+            ),
           },
         },
       },
@@ -417,11 +643,21 @@ export const Content30DataSource = {
               'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '大数据' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <span>
+                <p>Nodes</p>
+              </span>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '一站式、全周期大数据协同工作平台，PB级数据处理、毫秒级数据分析工具。',
+            children: (
+              <span>
+                <p>From Nebulas Nodes, to be BAS nodes.</p>
+              </span>
+            ),
           },
         },
       },
@@ -440,7 +676,15 @@ export const Content90DataSource = {
           'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
         className: 'title-image',
       },
-      { name: 'title', children: '会议日程', className: 'title-h1' },
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>Roadmap</p>
+          </span>
+        ),
+        className: 'title-h1',
+      },
     ],
   },
   block: {
@@ -463,10 +707,50 @@ export const Content90DataSource = {
             children:
               'https://gw.alipayobjects.com/zos/rmsportal/qJnGrvjXPxdKETlVSrbe.svg',
           },
-          name: { className: 'block-name', children: '姓名' },
-          post: { className: 'block-post', children: '公司 职位' },
-          time: { className: 'block-time', children: '09:00 - 10:00' },
-          title: { className: 'block-title', children: '开幕致辞' },
+          name: {
+            className: 'block-name',
+            children: (
+              <span>
+                <span>
+                  <p>
+                    <br />
+                  </p>
+                </span>
+              </span>
+            ),
+          },
+          post: {
+            className: 'block-post',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          time: {
+            className: 'block-time',
+            children: (
+              <span>
+                <span>
+                  <p>2022Q2</p>
+                </span>
+              </span>
+            ),
+          },
+          title: {
+            className: 'block-title',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <p>BAS Testnet</p>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
           content: { className: 'block-content', children: '' },
         },
       },
@@ -487,10 +771,50 @@ export const Content90DataSource = {
             children:
               'https://gw.alipayobjects.com/zos/rmsportal/QviGtUPvTFxdhsTUAacr.svg',
           },
-          name: { className: 'block-name', children: '姓名' },
-          post: { className: 'block-post', children: '公司 职位' },
-          time: { className: 'block-time', children: '09:00 - 10:00' },
-          title: { className: 'block-title', children: '演示标题 - XYZ' },
+          name: {
+            className: 'block-name',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          post: {
+            className: 'block-post',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          time: {
+            className: 'block-time',
+            children: (
+              <span>
+                <span>
+                  <p>2022Q3</p>
+                </span>
+              </span>
+            ),
+          },
+          title: {
+            className: 'block-title',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <p>zkRollup Development</p>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
           content: {
             className: 'block-content',
             children:
@@ -515,10 +839,42 @@ export const Content90DataSource = {
             children:
               'https://gw.alipayobjects.com/zos/rmsportal/QviGtUPvTFxdhsTUAacr.svg',
           },
-          name: { className: 'block-name', children: '姓名' },
-          post: { className: 'block-post', children: '公司 职位' },
-          time: { className: 'block-time', children: '09:00 - 10:00' },
-          title: { className: 'block-title', children: '演示标题 - XYZ' },
+          name: {
+            className: 'block-name',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          post: {
+            className: 'block-post',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          time: {
+            className: 'block-time',
+            children: (
+              <span>
+                <p>2022Q4</p>
+              </span>
+            ),
+          },
+          title: {
+            className: 'block-title',
+            children: (
+              <span>
+                <p>CommChain Testnet</p>
+              </span>
+            ),
+          },
           content: {
             className: 'block-content',
             children:
@@ -543,10 +899,42 @@ export const Content90DataSource = {
             children:
               'https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg',
           },
-          name: { className: 'block-name', children: '姓名' },
-          post: { className: 'block-post', children: '公司 职位' },
-          time: { className: 'block-time', children: '09:00 - 10:00' },
-          title: { className: 'block-title', children: '演示标题 - XYZ' },
+          name: {
+            className: 'block-name',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          post: {
+            className: 'block-post',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          time: {
+            className: 'block-time',
+            children: (
+              <span>
+                <p>2023</p>
+              </span>
+            ),
+          },
+          title: {
+            className: 'block-title',
+            children: (
+              <span>
+                <p>CommChain Mainnet</p>
+              </span>
+            ),
+          },
           content: {
             className: 'block-content',
             children:
@@ -557,14 +945,82 @@ export const Content90DataSource = {
     ],
   },
 };
-export const Footer00DataSource = {
-  wrapper: { className: 'home-page-wrapper footer0-wrapper' },
-  OverPack: { className: 'home-page footer0', playScale: 0.05 },
+export const Footer10DataSource = {
+  wrapper: { className: 'home-page-wrapper footer1-wrapper' },
+  OverPack: { className: 'footer1', playScale: 0.2 },
+  block: {
+    className: 'home-page',
+    gutter: 0,
+    children: [
+      {
+        name: 'block0',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: {
+          className: 'logo',
+          children: 'https://commchain-website.4everland.store/logo.png',
+        },
+        childWrapper: {
+          className: 'slogan',
+          children: [
+            {
+              name: 'content0',
+              children: 'Animation specification and components of Ant Design.',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block1',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: { children: '产品' },
+        childWrapper: {
+          children: [
+            { name: 'link0', href: '#', children: '产品更新记录' },
+            { name: 'link1', href: '#', children: 'API文档' },
+            { name: 'link2', href: '#', children: '快速入门' },
+            { name: 'link3', href: '#', children: '参考指南' },
+          ],
+        },
+      },
+      {
+        name: 'block2',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: { children: '关于' },
+        childWrapper: {
+          children: [
+            { href: '#', name: 'link0', children: 'FAQ' },
+            { href: '#', name: 'link1', children: '联系我们' },
+          ],
+        },
+      },
+      {
+        name: 'block3',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: { children: '资源' },
+        childWrapper: {
+          children: [
+            { href: '#', name: 'link0', children: 'Ant Design' },
+            { href: '#', name: 'link1', children: 'Ant Motion' },
+          ],
+        },
+      },
+    ],
+  },
+  copyrightWrapper: { className: 'copyright-wrapper' },
+  copyrightPage: { className: 'home-page' },
   copyright: {
     className: 'copyright',
     children: (
       <span>
-        ©2018 <a href="https://motion.ant.design">Ant Motion</a> All Rights
+        ©2018 by <a href="https://motion.ant.design">Ant Motion</a> All Rights
         Reserved
       </span>
     ),
