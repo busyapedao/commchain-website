@@ -4,7 +4,7 @@ export const Nav30DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header3-logo',
-    children: 'https://commchain-website.4everland.store/logo.png',
+    children: '/img/logo2.png',
   },
   Menu: {
     className: 'header3-menu',
@@ -25,64 +25,12 @@ export const Nav30DataSource = {
             },
           ],
         },
-        subItem: [
-          {
-            name: 'sub0',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub1',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-        ],
       },
       {
         name: 'item1',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://staking.communitychain.xyz/',
           children: [
             {
               children: (
@@ -99,7 +47,7 @@ export const Nav30DataSource = {
         name: 'item2',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://explorer.communitychain.xyz/',
           children: [
             {
               children: (
@@ -120,7 +68,7 @@ export const Nav30DataSource = {
         name: 'item3',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://faucet.communitychain.xyz/',
           children: [
             {
               children: (
@@ -128,7 +76,7 @@ export const Nav30DataSource = {
                   <span>
                     <span>
                       <p>
-                        F<span>aucet</span>
+                        <span>Faucet</span>
                       </p>
                     </span>
                   </span>
@@ -143,7 +91,7 @@ export const Nav30DataSource = {
         name: 'item~l43zsthv4k8',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://docs.communitychain.xyz/',
           children: [
             {
               children: (
@@ -172,7 +120,7 @@ export const Banner30DataSource = {
       {
         name: 'slogan',
         className: 'banner3-slogan',
-        children: 'COMMCHAIN',
+        children: 'Build zkRollup for BAS',
         texty: true,
       },
       {
@@ -180,7 +128,7 @@ export const Banner30DataSource = {
         className: 'banner3-name',
         children: (
           <span>
-            <p>zkRollup of BNB Sidechain</p>
+            <p>Nabalus Community Chain</p>
           </span>
         ),
       },
@@ -218,7 +166,7 @@ export const Content110DataSource = {
           <span>
             <span>
               <p>
-                CommChain is Built for Nabalus(list Binance:NAS) Community Chain
+                CommChain is Built by Nabalus(list Binance:NAS) Community
               </p>
             </span>
           </span>
@@ -370,7 +318,7 @@ export const Content00DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p>All blocks are verified and stored by BSC</p>
+                        <p>All blocks are verified and stored in BSC smart contract</p>
                       </span>
                     </span>
                   </span>
@@ -700,7 +648,7 @@ export const Content90DataSource = {
           img: {
             className: 'block-img',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png',
+              '/img/building-0.png',
           },
           icon: {
             className: 'block-icon',
@@ -751,7 +699,11 @@ export const Content90DataSource = {
               </span>
             ),
           },
-          content: { className: 'block-content', children: '' },
+          content: { 
+			  className: 'block-content', 
+			  children: 
+			    'Research the source code of BAS, include Staking / BlockScan / Faucet, launch Testnet, contribute Docs about how it works.' ,
+		  },
         },
       },
       {
@@ -764,7 +716,7 @@ export const Content90DataSource = {
           img: {
             className: 'block-img',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png',
+              '/img/building-1.png',
           },
           icon: {
             className: 'block-icon',
@@ -818,7 +770,7 @@ export const Content90DataSource = {
           content: {
             className: 'block-content',
             children:
-              '经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。',
+              'Develop ZK-Circuit for Rollup, block data sync from BAS Testnet to BSC Testnet, if BAS crash, it can rescue from BSC.',
           },
         },
       },
@@ -832,7 +784,7 @@ export const Content90DataSource = {
           img: {
             className: 'block-img',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png',
+              '/img/building-2.png',
           },
           icon: {
             className: 'block-icon',
@@ -878,7 +830,7 @@ export const Content90DataSource = {
           content: {
             className: 'block-content',
             children:
-              '经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。',
+              'It\'ll run fewer nodes, but more safety, and faster.',
           },
         },
       },
@@ -892,7 +844,7 @@ export const Content90DataSource = {
           img: {
             className: 'block-img',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png',
+              '/img/building-3.png',
           },
           icon: {
             className: 'block-icon',
@@ -938,7 +890,7 @@ export const Content90DataSource = {
           content: {
             className: 'block-content',
             children:
-              '经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。',
+              'Cool ! BNBChain zkRollup L2, build by Nebalus Community.',
           },
         },
       },
@@ -959,14 +911,14 @@ export const Footer10DataSource = {
         className: 'block',
         title: {
           className: 'logo',
-          children: 'https://commchain-website.4everland.store/logo.png',
+          children: 'COMMCHAIN',
         },
         childWrapper: {
           className: 'slogan',
           children: [
             {
               name: 'content0',
-              children: 'Animation specification and components of Ant Design.',
+              children: 'zkRollup of BNB Sidechain',
             },
           ],
         },
@@ -976,13 +928,13 @@ export const Footer10DataSource = {
         xs: 24,
         md: 6,
         className: 'block',
-        title: { children: '产品' },
+        title: { children: 'Product' },
         childWrapper: {
           children: [
-            { name: 'link0', href: '#', children: '产品更新记录' },
-            { name: 'link1', href: '#', children: 'API文档' },
-            { name: 'link2', href: '#', children: '快速入门' },
-            { name: 'link3', href: '#', children: '参考指南' },
+            { name: 'link0', href: 'https://staking.communitychain.xyz/', children: 'Staking' },
+            { name: 'link1', href: 'https://explorer.communitychain.xyz/', children: 'BlockScan' },
+            { name: 'link2', href: 'https://faucet.communitychain.xyz/', children: 'Faucet' },
+            { name: 'link3', href: 'https://docs.communitychain.xyz/', children: 'Docs' },
           ],
         },
       },
@@ -991,11 +943,11 @@ export const Footer10DataSource = {
         xs: 24,
         md: 6,
         className: 'block',
-        title: { children: '关于' },
+        title: { children: 'About' },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'FAQ' },
-            { href: '#', name: 'link1', children: '联系我们' },
+            { href: 'https://docs.communitychain.xyz/', name: 'link0', children: 'FAQ' },
+            { href: 'https://t.me/George8080', name: 'link1', children: 'Telegram' },
           ],
         },
       },
@@ -1004,11 +956,11 @@ export const Footer10DataSource = {
         xs: 24,
         md: 6,
         className: 'block',
-        title: { children: '资源' },
+        title: { children: 'Assets' },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'Ant Design' },
-            { href: '#', name: 'link1', children: 'Ant Motion' },
+            { href: 'https://github.com/busyapedao', name: 'link0', children: 'Github' },
+            { href: '#', name: 'link1', children: 'Mirror' },
           ],
         },
       },
@@ -1020,7 +972,7 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        ©2018 by <a href="https://motion.ant.design">Ant Motion</a> All Rights
+        ©2022 by <a href="https://go.nebulas.io/proposal/650">Nebulas Community</a> All Rights
         Reserved
       </span>
     ),
