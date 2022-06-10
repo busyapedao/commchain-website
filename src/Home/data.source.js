@@ -128,7 +128,7 @@ export const Banner30DataSource = {
         className: 'banner3-name',
         children: (
           <span>
-            <p>Nabalus Community Chain</p>
+            <p>Nebulas Community Chain</p>
           </span>
         ),
       },
@@ -166,7 +166,7 @@ export const Content110DataSource = {
           <span>
             <span>
               <p>
-                CommChain is Built by Nabalus(list Binance:NAS) Community
+                CommChain is Built by Nebulas(list Binance:NAS) Community
               </p>
             </span>
           </span>
@@ -890,7 +890,7 @@ export const Content90DataSource = {
           content: {
             className: 'block-content',
             children:
-              'Cool ! BNBChain zkRollup L2, build by Nebalus Community.',
+              'Cool ! BNBChain zkRollup L2, build by Nebulas Community.',
           },
         },
       },
